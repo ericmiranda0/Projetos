@@ -1,0 +1,130 @@
+.leo {
+  height: 300px;
+  width: 250px;
+}
+
+body {
+  background: url(../img/background.png) repeat center;
+  background-size: cover;
+  height: 100vh;
+  right: 100%;
+}
+
+.h100 {
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.7);
+  background-size: cover;
+  border-radius: 16px;
+  margin: 5px;
+  padding: 20px;
+}
+
+.r2 {
+  position: relative;
+  padding-top: 70px;
+  height: 100px;
+  font-size: 10px;
+}
+
+.h {
+  width: 100px;
+  height: auto;
+}
+
+.navbar {
+  position: absolute;
+  background-color: white;
+  height: 80px;
+  margin: 50px;
+  border-radius: 16px;
+  padding: 0.5rem;
+}
+
+.nav-link {
+  color: #666777;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: black;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: #86bc25;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover:before,
+.nav-link.active::before {
+  width: 100%;
+  visibility: visible;
+}
+
+.r1 {
+  margin-top: 200px;
+}
+
+.h400 {
+  height: 400px;
+}
+
+.bg-1 {
+  background-color: rgb(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 16px;
+  margin: 5px;
+}
+
+.bg-1,
+h2 {
+  font-size: 12px;
+}
+
+.ha {
+  font-size: 16px;
+}
+
+.p {
+  font-size: 16px;
+}
+
+.quem {
+  margin-top: 10px;
+  background-color: rgb(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 16px;
+  margin: 5px;
+}
+
+.bro {
+  width: 200px;
+  height: 200px;
+}
+
+.from-contato {
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+  background-color: rgb(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.footer {
+  font-size: 15px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
