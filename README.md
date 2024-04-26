@@ -5,3 +5,4 @@ Foco em Leonardo: O destaque principal da página é Leonardo, o líder destemid
 Formulário de Contato: Além disso, a landing page inclui um formulário de contato, permitindo que os visitantes se conectem facilmente para obter mais informações ou compartilhar seus comentários sobre o tema.
 
 Site da página: https://singular-parfait-051c09.netlify.app/
+![chrome-capture-2024-4-26](https://github.com/ericmiranda0/Projetos/assets/168125753/15ea44ba-c94a-4d48-a76b-c123c7c4925d)
